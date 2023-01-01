@@ -1,0 +1,49 @@
+{
+  "name": "workflow-service",
+  "version": "1.0.28",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js --exit",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://farus98@bitbucket.org/adapro/workflow-service.git"
+  },
+  "author": "razone98",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/adapro/workflow-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "camelcase-keys": "^6.2.2",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "consul": "^0.40.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "http": "0.0.1-security",
+    "ioredis": "^4.28.2",
+    "jexl": "^2.3.0",
+    "mocha": "^9.1.3",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mssql": "^6.3.1",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1",
+    "redis": "^3.1.2",
+    "redis-lock": "^0.1.4",
+    "redis-streams-broker": "0.0.13",
+    "request-promise": "^4.2.6",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  }
+}
